@@ -6,6 +6,6 @@
 #### Download app on release
 
 #### App preview 👇
-![app gif](.\v1.0.gif)
+![app gif](v1.0.gif)
 
 #### API : https://v2.jokeapi.dev/joke/
