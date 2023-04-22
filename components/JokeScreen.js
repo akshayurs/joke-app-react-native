@@ -59,9 +59,7 @@ export default function JokeScreen({
       }
       const response = await fetch(url + newUrl);
 
-      console.log(url + newUrl);
       const data = await response.json();
-      console.log(data);
       if (data.error) {
         throw new Error("Error fetching joke");
       }
@@ -127,8 +125,6 @@ export default function JokeScreen({
           <IconButton
             icon={saved ? "heart" : "heart-outline"}
             onPress={() => {
-              console.log("pressed");
-              console.log(saved);
               setSaved((prevSave) => {
                 if (!prevSave == true) {
                   setSavedItems((prev) => {
@@ -152,7 +148,6 @@ export default function JokeScreen({
             color={paperTheme.colors.primary}
             onPress={() => {
               Speech.stop();
-              console.log(lang);
               setIsSpeechEnabled((prev) => {
                 Speech.stop();
                 if (!prev == true) {
