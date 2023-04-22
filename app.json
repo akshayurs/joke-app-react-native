@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "joke-react",
+    "slug": "joke-react",
+    "version": "1.0.0",
+    "sdkVersion": "48.0.0",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#252525",
+      "resizeMode": "contain",
+      "imageResizeMode": "contain",
+      "androidStatusBar": {
+        "barStyle": "light-content",
+        "backgroundColor": "#252525"
+      },
+      "iosStatusBar": {
+        "barStyle": "light-content",
+        "backgroundColor": "#252525"
+      }
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.anonymous.jokereact"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ebe5258c-1378-464e-8ba9-ace4905e668f"
+      }
+    }
+  }
+}
